@@ -4,20 +4,27 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles//style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to our gallery</h1>
-    </header>   
-    <p>Hover on any thumbnail to see it bigger</p>
-    <nav>
-        <div id="thumb-bar"> </div>
-    </div>
-    <img src="images/pic1.jpg" class="displayed-img">
-    <label>What effect do you want to apply?</label>
-    <input id="effect" type="text">
-    <button>Submit</button>
+    <center>
+        <header>
+            <h1>Welcome to our gallery</h1>
+        </header>   
+        <p id="subheader">Hover on any thumbnail to see it bigger</p>
+        <nav>
+            <div id="thumb-bar">
+                <img src="images/pic1.jpg" class="thumbnail-img"/><img src="images/pic2.jpg" class="thumbnail-img"/><img src="images/pic3.jpg" class="thumbnail-img"/><img src="images/pic4.jpg" class="thumbnail-img"/><img src="images/pic5.jpg" class="thumbnail-img">
+            </div>
+        </nav>
+        </div>
+        <img src="images/pic1.jpg" class="displayed-img"><br>
+        <label><p>What effect do you want to apply?</p></label>
+        <input id="effect" type="text"><br>
+        <button>Submit</button>
+    </center>
 </body>
 
 </html>
